@@ -1,7 +1,7 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio Version 16
-VisualStudioVersion = 16.0.29230.47
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31825.309
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "build", "build", "{79D71264-186B-4F62-8930-35DD9ECCAF3B}"
 	ProjectSection(SolutionItems) = preProject
@@ -22,21 +22,21 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Http.Shim", "src\manag
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "discovery", "discovery", "{52ACBC5B-D5F0-4FEA-A27B-0A8577204E64}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Management.Cluster.Bootstrap", "src\cluster.bootstrap\Akka.Management.Cluster.Bootstrap\Akka.Management.Cluster.Bootstrap.csproj", "{1E6DC42F-E7DD-4924-8768-58BB2D35F534}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Management.Cluster.Bootstrap", "src\cluster.bootstrap\Akka.Management.Cluster.Bootstrap\Akka.Management.Cluster.Bootstrap.csproj", "{1E6DC42F-E7DD-4924-8768-58BB2D35F534}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Discovery.AwsApi", "src\discovery\aws\Akka.Discovery.AwsApi\Akka.Discovery.AwsApi.csproj", "{4B2C5766-0B33-4FE0-BEA0-0B58321444BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Discovery.AwsApi", "src\discovery\aws\Akka.Discovery.AwsApi\Akka.Discovery.AwsApi.csproj", "{4B2C5766-0B33-4FE0-BEA0-0B58321444BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Http.Shim.Tests", "src\management\Akka.Http.Shim.Tests\Akka.Http.Shim.Tests.csproj", "{F61AB32F-FAA4-4687-9666-8359FE3AC28A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Http.Shim.Tests", "src\management\Akka.Http.Shim.Tests\Akka.Http.Shim.Tests.csproj", "{F61AB32F-FAA4-4687-9666-8359FE3AC28A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Discovery.AwsApi.Tests", "src\discovery\aws\Akka.Discovery.AwsApi.Tests\Akka.Discovery.AwsApi.Tests.csproj", "{1EE92CD1-D24A-48A7-919E-6BAB3357704B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Discovery.AwsApi.Tests", "src\discovery\aws\Akka.Discovery.AwsApi.Tests\Akka.Discovery.AwsApi.Tests.csproj", "{1EE92CD1-D24A-48A7-919E-6BAB3357704B}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cluster.bootstrap", "cluster.bootstrap", "{012DD1B7-8531-464D-B3DF-467E3F2AE2CF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Discovery.AwsApi.Integration.Tests", "src\discovery\aws\Akka.Discovery.AwsApi.Integration.Tests\Akka.Discovery.AwsApi.Integration.Tests.csproj", "{6D56E8D4-9453-48A6-BF95-FD209FC9E6C6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Discovery.AwsApi.Integration.Tests", "src\discovery\aws\Akka.Discovery.AwsApi.Integration.Tests\Akka.Discovery.AwsApi.Integration.Tests.csproj", "{6D56E8D4-9453-48A6-BF95-FD209FC9E6C6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Management.Cluster.Bootstrap.Tests", "src\cluster.bootstrap\Akka.Management.Cluster.Bootstrap.Tests\Akka.Management.Cluster.Bootstrap.Tests.csproj", "{5EEC076D-CD09-4093-B473-7BE8D66D698B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Management.Cluster.Bootstrap.Tests", "src\cluster.bootstrap\Akka.Management.Cluster.Bootstrap.Tests\Akka.Management.Cluster.Bootstrap.Tests.csproj", "{5EEC076D-CD09-4093-B473-7BE8D66D698B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "StressTest", "src\cluster.bootstrap\examples\StressTest\StressTest.csproj", "{3ADFF0D4-D17F-4850-B021-0A53B09811C0}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "StressTest", "src\cluster.bootstrap\examples\StressTest\StressTest.csproj", "{3ADFF0D4-D17F-4850-B021-0A53B09811C0}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Examples", "Examples", "{24FEBA95-1FC2-4AC2-8386-6AB13AE87056}"
 EndProject
@@ -44,19 +44,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "aws", "aws", "{BC1617D3-254
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "kubernetes", "kubernetes", "{57F7B842-005E-4DC1-9B06-7B4F99986A7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Discovery.KubernetesApi", "src\discovery\kubernetes\Akka.Discovery.KubernetesApi\Akka.Discovery.KubernetesApi.csproj", "{1E87E00E-637D-4AA8-8B02-1AE1885FC53F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Discovery.KubernetesApi", "src\discovery\kubernetes\Akka.Discovery.KubernetesApi\Akka.Discovery.KubernetesApi.csproj", "{1E87E00E-637D-4AA8-8B02-1AE1885FC53F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Discovery.KubernetesApi.Tests", "src\discovery\kubernetes\Akka.Discovery.KubernetesApi.Tests\Akka.Discovery.KubernetesApi.Tests.csproj", "{FEE5FBF2-F53D-4939-A9A3-D8BF82BE97B4}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Discovery.KubernetesApi.Tests", "src\discovery\kubernetes\Akka.Discovery.KubernetesApi.Tests\Akka.Discovery.KubernetesApi.Tests.csproj", "{FEE5FBF2-F53D-4939-A9A3-D8BF82BE97B4}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Lease", "Lease", "{FE96A0E5-1216-40CE-9CC8-5C491A5E6267}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Kubernetes", "Kubernetes", "{6F76292F-324B-4636-BA8A-D4C39E62FCDC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Coordination.KubernetesApi", "src\coordination\kubernetes\Akka.Coordination.KubernetesApi\Akka.Coordination.KubernetesApi.csproj", "{AC4B13D0-2CE7-4E91-9EE2-640F33AAD068}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Coordination.KubernetesApi", "src\coordination\kubernetes\Akka.Coordination.KubernetesApi\Akka.Coordination.KubernetesApi.csproj", "{AC4B13D0-2CE7-4E91-9EE2-640F33AAD068}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Akka.Coordination.KubernetesApi.Tests", "src\coordination\kubernetes\Akka.Coordination.KubernetesApi.Tests\Akka.Coordination.KubernetesApi.Tests.csproj", "{BB9C1954-1CA5-430C-9942-601C0E625A81}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Coordination.KubernetesApi.Tests", "src\coordination\kubernetes\Akka.Coordination.KubernetesApi.Tests\Akka.Coordination.KubernetesApi.Tests.csproj", "{BB9C1954-1CA5-430C-9942-601C0E625A81}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KubernetesCluster", "src\cluster.bootstrap\examples\discovery\kubernetes\src\KubernetesCluster\KubernetesCluster.csproj", "{27535BEC-07B4-47F0-80BA-B6AFC467F9E9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "KubernetesCluster", "src\cluster.bootstrap\examples\discovery\kubernetes\src\KubernetesCluster\KubernetesCluster.csproj", "{27535BEC-07B4-47F0-80BA-B6AFC467F9E9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "cluster.http", "cluster.http", "{7984BE2D-453F-46A2-A590-85CAC9F6948D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Akka.Management.Cluster.Http", "src\cluster.http\Akka.Management.Cluster.Http\Akka.Management.Cluster.Http.csproj", "{4B23C786-AAE9-4066-AA82-0C8FD2F48612}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -80,14 +84,14 @@ Global
 		{1E6DC42F-E7DD-4924-8768-58BB2D35F534}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1E6DC42F-E7DD-4924-8768-58BB2D35F534}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1E6DC42F-E7DD-4924-8768-58BB2D35F534}.Release|Any CPU.Build.0 = Release|Any CPU
-		{F61AB32F-FAA4-4687-9666-8359FE3AC28A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{F61AB32F-FAA4-4687-9666-8359FE3AC28A}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{F61AB32F-FAA4-4687-9666-8359FE3AC28A}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{F61AB32F-FAA4-4687-9666-8359FE3AC28A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4B2C5766-0B33-4FE0-BEA0-0B58321444BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4B2C5766-0B33-4FE0-BEA0-0B58321444BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4B2C5766-0B33-4FE0-BEA0-0B58321444BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4B2C5766-0B33-4FE0-BEA0-0B58321444BC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F61AB32F-FAA4-4687-9666-8359FE3AC28A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F61AB32F-FAA4-4687-9666-8359FE3AC28A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F61AB32F-FAA4-4687-9666-8359FE3AC28A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F61AB32F-FAA4-4687-9666-8359FE3AC28A}.Release|Any CPU.Build.0 = Release|Any CPU
 		{1EE92CD1-D24A-48A7-919E-6BAB3357704B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{1EE92CD1-D24A-48A7-919E-6BAB3357704B}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1EE92CD1-D24A-48A7-919E-6BAB3357704B}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -124,6 +128,10 @@ Global
 		{27535BEC-07B4-47F0-80BA-B6AFC467F9E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{27535BEC-07B4-47F0-80BA-B6AFC467F9E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{27535BEC-07B4-47F0-80BA-B6AFC467F9E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4B23C786-AAE9-4066-AA82-0C8FD2F48612}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4B23C786-AAE9-4066-AA82-0C8FD2F48612}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4B23C786-AAE9-4066-AA82-0C8FD2F48612}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4B23C786-AAE9-4066-AA82-0C8FD2F48612}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -132,15 +140,15 @@ Global
 		{C251CBCC-A7F4-40DC-9B93-F3FE514FD7DE} = {9B10ADF5-60D1-4EED-9E98-9CB2E1E84E98}
 		{5FD15B48-DECC-4742-AB9C-6F8517B12C6D} = {9B10ADF5-60D1-4EED-9E98-9CB2E1E84E98}
 		{DC9C497E-4B8D-4D32-A1D5-569E349BDE17} = {9B10ADF5-60D1-4EED-9E98-9CB2E1E84E98}
-		{F61AB32F-FAA4-4687-9666-8359FE3AC28A} = {9B10ADF5-60D1-4EED-9E98-9CB2E1E84E98}
 		{1E6DC42F-E7DD-4924-8768-58BB2D35F534} = {012DD1B7-8531-464D-B3DF-467E3F2AE2CF}
-		{5EEC076D-CD09-4093-B473-7BE8D66D698B} = {012DD1B7-8531-464D-B3DF-467E3F2AE2CF}
-		{24FEBA95-1FC2-4AC2-8386-6AB13AE87056} = {012DD1B7-8531-464D-B3DF-467E3F2AE2CF}
-		{3ADFF0D4-D17F-4850-B021-0A53B09811C0} = {24FEBA95-1FC2-4AC2-8386-6AB13AE87056}
-		{BC1617D3-254B-47FD-94A1-5563C512D8E8} = {52ACBC5B-D5F0-4FEA-A27B-0A8577204E64}
 		{4B2C5766-0B33-4FE0-BEA0-0B58321444BC} = {BC1617D3-254B-47FD-94A1-5563C512D8E8}
-		{6D56E8D4-9453-48A6-BF95-FD209FC9E6C6} = {BC1617D3-254B-47FD-94A1-5563C512D8E8}
+		{F61AB32F-FAA4-4687-9666-8359FE3AC28A} = {9B10ADF5-60D1-4EED-9E98-9CB2E1E84E98}
 		{1EE92CD1-D24A-48A7-919E-6BAB3357704B} = {BC1617D3-254B-47FD-94A1-5563C512D8E8}
+		{6D56E8D4-9453-48A6-BF95-FD209FC9E6C6} = {BC1617D3-254B-47FD-94A1-5563C512D8E8}
+		{5EEC076D-CD09-4093-B473-7BE8D66D698B} = {012DD1B7-8531-464D-B3DF-467E3F2AE2CF}
+		{3ADFF0D4-D17F-4850-B021-0A53B09811C0} = {24FEBA95-1FC2-4AC2-8386-6AB13AE87056}
+		{24FEBA95-1FC2-4AC2-8386-6AB13AE87056} = {012DD1B7-8531-464D-B3DF-467E3F2AE2CF}
+		{BC1617D3-254B-47FD-94A1-5563C512D8E8} = {52ACBC5B-D5F0-4FEA-A27B-0A8577204E64}
 		{57F7B842-005E-4DC1-9B06-7B4F99986A7B} = {52ACBC5B-D5F0-4FEA-A27B-0A8577204E64}
 		{1E87E00E-637D-4AA8-8B02-1AE1885FC53F} = {57F7B842-005E-4DC1-9B06-7B4F99986A7B}
 		{FEE5FBF2-F53D-4939-A9A3-D8BF82BE97B4} = {57F7B842-005E-4DC1-9B06-7B4F99986A7B}
@@ -148,6 +156,7 @@ Global
 		{AC4B13D0-2CE7-4E91-9EE2-640F33AAD068} = {6F76292F-324B-4636-BA8A-D4C39E62FCDC}
 		{BB9C1954-1CA5-430C-9942-601C0E625A81} = {6F76292F-324B-4636-BA8A-D4C39E62FCDC}
 		{27535BEC-07B4-47F0-80BA-B6AFC467F9E9} = {24FEBA95-1FC2-4AC2-8386-6AB13AE87056}
+		{4B23C786-AAE9-4066-AA82-0C8FD2F48612} = {7984BE2D-453F-46A2-A590-85CAC9F6948D}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {B99E6BB8-642A-4A68-86DF-69567CBA700A}

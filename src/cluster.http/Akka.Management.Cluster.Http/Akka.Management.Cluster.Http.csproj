@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+	<PropertyGroup>
+		<TargetFramework>$(LibraryFramework)</TargetFramework>
+		<LangVersion>8.0</LangVersion>
+		<RootNamespace>Akka.Management.Cluster</RootNamespace>
+	</PropertyGroup>
+
+	<ItemGroup>		
+		<PackageReference Include="Akka.Cluster.Sharding" Version="$(AkkaVersion)" />
+	</ItemGroup>
+
+	<ItemGroup>
+		<ProjectReference Include="..\..\management\Akka.Management\Akka.Management.csproj" />
+	</ItemGroup>
+
+	<ItemGroup>
+	  <EmbeddedResource Include="Resources\reference.conf" />
+	</ItemGroup>
+
+</Project>
